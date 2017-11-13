@@ -1,0 +1,19 @@
+<div class = "container-fluid">
+  </br>
+  </br>
+
+  <h2>The coachee question:</h2>
+  <h3><%= params[:query]%></h3>
+  </br>
+  </br>
+
+  <h2>The coaches answer:</h2>
+  <h3><%= @answer%></h3>
+  </br>
+  </br>
+  </br>
+  </br>
+  <button class="btn btn-primary">
+    <h3 class="font-white"><%=link_to "Ask a question", "/ask" %></h3>
+  </button>
+</div>
